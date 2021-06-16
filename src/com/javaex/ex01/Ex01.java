@@ -33,7 +33,7 @@ public class Ex01 {
 		}	
 		
 		
-		out.close();	//Scanner처럼 해줘야함.
+		out.close();	//Scanner처럼 해줘야함.--> 나중에 쓴놈부터 닫아줌.
 		in.close();
 				
 		
