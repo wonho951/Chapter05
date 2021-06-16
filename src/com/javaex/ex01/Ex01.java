@@ -17,7 +17,7 @@ public class Ex01 {
 		
 		
 		
-		int data;
+		int data;	//한모금씩 옮겨서 느림.ㅇㅋ?
 		
 		System.out.println("copy start");
 		while (true) {	//느림
@@ -33,7 +33,8 @@ public class Ex01 {
 		}	
 		
 		
-		
+		out.close();	//Scanner처럼 해줘야함.
+		in.close();
 				
 		
 		
