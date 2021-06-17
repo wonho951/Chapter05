@@ -31,11 +31,6 @@ public class Ex02 {
 		
 		
 		
-		
-		
-		
-		
-		
 		br.close();
 		fr.close();
 		
