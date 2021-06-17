@@ -13,7 +13,7 @@ public class Ex03 {
 		
 		//UTF-8 외에 다른 포맷일때
 		InputStream in = new FileInputStream("C:\\javaStudy\\file\\MS949.txt");//제일 얇은 빨대 꽂고,
-		InputStreamReader isr = new InputStreamReader(in, "MS949");//주스트림 꽂고 어떤 놈 해석할지,
+		InputStreamReader isr = new InputStreamReader(in, "MS949");//주스트림 꽂고 어떤 포맷인지,
 		BufferedReader br = new BufferedReader(isr);	//보조스트림(중간빨대) 꽂음. 얘가 제일 큰 빨대
 		
 		
