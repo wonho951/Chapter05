@@ -10,7 +10,9 @@ public class Ex01 {
 	public static void main(String[] args) throws IOException{
 
 		
-		Writer fw = new FileWriter("C:\\\\\\\\javaStudy\\\\\\\\file\\\\\\\\song.txt");	//주스트림
+		//쓰는거.--> 출력.
+		
+		Writer fw = new FileWriter("C:\\javaStudy\\file\\song.txt");	//주스트림
 		BufferedWriter bw = new BufferedWriter(fw);	//큰빨대 ()안에 주스트림 넣고
 		
 		bw.write("학교종이 땡땡땡 ");//줄바꿈이 편하다.속도도 좀 더 빠름
