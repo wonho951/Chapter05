@@ -43,6 +43,9 @@ public class PhoneApp {
 			System.out.println("회사: " + company);
 			System.out.println("");
 			
+			
+			
+			
 		}
 		
 		
