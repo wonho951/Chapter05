@@ -33,13 +33,6 @@ public class Ex03 {
 		
 		
 		
-		
-		
-		
-		
-		
-		
-		
 		br.close();
 		
 	}

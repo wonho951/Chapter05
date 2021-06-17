@@ -45,5 +45,8 @@ public class Person {
 		return "Person [name=" + name + ", hp=" + hp + ", company=" + company + "]";
 	}
 	
+	public String draw() {
+		return   name + "," + hp + "," + "company";
+	}
 	
 }
