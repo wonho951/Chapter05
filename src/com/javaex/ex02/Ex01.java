@@ -11,7 +11,15 @@ public class Ex01 {
 
 		
 		Writer fw = new FileWriter("C:\\\\\\\\javaStudy\\\\\\\\file\\\\\\\\song.txt");	//주스트림
-		BufferedWriter br = new BufferedWriter(fw);
+		BufferedWriter bw = new BufferedWriter(fw);	//큰빨대 ()안에 주스트림 넣고
+		
+		bw.write("학교종이 땡땡땡 ");//줄바꿈이 편하다.속도도 좀 더 빠름
+		bw.newLine();	//줄바꿈. \n은 os에 따라 미묘하게 다르기 때문에 newline써줌
+		bw.write("어서 모이자 ");
+		bw.newLine();
+		bw.write("선생님이 우리를 ");
+		bw.newLine();
+		bw.write("기다리신다.");
 		
 		
 		
@@ -19,7 +27,7 @@ public class Ex01 {
 		
 		
 		
-		
+		bw.close();//close 먼저 해주는게 좋음. 까먹을수도 있으니깐.
 		
 		
 		
