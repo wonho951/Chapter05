@@ -7,7 +7,7 @@ import java.io.Reader;
 import java.util.ArrayList;
 import java.util.List;
 
-public class PersonApp2 {
+public class PhoneApp2 {
 
 	public static void main(String[] args) throws IOException{
 
